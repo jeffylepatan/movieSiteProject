@@ -1,0 +1,110 @@
+.carousel-control-prev {
+	left: 200px;
+	top: -200px;
+}
+
+.carousel-control-next {
+	right: 240px;
+	top: -200px;
+}
+
+.dropdown-menu.sp2 {
+	height: 400px;
+	overflow: auto;
+}
+
+.imgPic {
+	height: 220px;
+	width: 160px;
+}
+
+.imgPic:hover {
+	animation: fade1 1s 1;
+	opacity: 0.5;
+}
+
+.movlist {
+	color: white;
+	margin-top: 80px;
+}
+
+.movvv {	
+	margin-top: 80px;
+	padding-left: 30%;
+}
+
+.movbox {
+	cursor: pointer;
+	float: left;
+	height: 292px;
+	margin: 5px 10px 0 0;
+	position: relative;
+	width: 160px;
+}
+
+.movpic {
+	background: blue;
+	height: 220px;
+	width: 160px;
+}
+
+.movname {
+	text-align: center;
+}
+
+.player {
+	align-content: center;
+	color: white;
+	height: 540px;
+	text-align:center;
+	width: 740px;
+}
+
+.rndFeat {
+	color: white;
+	left: 50px;
+	position: relative;
+	z-index: 1;
+}
+
+.sBanner {
+	height: 282px;
+	position: absolute;
+}
+
+.sPic {
+	border: 1px solid gold;
+	height: 280px;
+	position: fixed;
+	top: 80px;
+	width: 190px;
+}
+
+.serbox {
+	background-color: black;
+	border: 1px solid white;
+	border-radius: 5px;
+	cursor: pointer;
+	height: 25px;
+	left: 240px;
+	margin-top: 10px;
+	position: relative;
+	text-align: center;
+	top: 20px;
+	width: 300px;
+}
+
+.sBanner button {
+	position: fixed;
+	top: 380px;
+	width: 190px;
+}
+
+video {
+	object-fit: scale-down;
+}
+
+@keyframes fade1{
+	from {opacity: 1;}
+	to {opacity: 0.5;}
+}

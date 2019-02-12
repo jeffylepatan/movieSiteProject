@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="styles/boots.css">
+	
+	<!-- Local CSS -->
+	<link href="styles/my.css" rel="stylesheet" type="text/css" />
+
+    <title>LEPSCORP Movies - Asian Movies</title>
+	<link rel="icon" href="old-videos-icon.png" type="image/png" sizes="16x16">
+  </head>
+  <body class="bg-dark">
+    <header>
+		<div >
+			<nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
+			  <a class="navbar-brand" href="#">LEPSCORP Movies</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+				  <li class="nav-item">
+					<a class="nav-link" href="index.html">Featured</a>
+				  </li>
+				  <li class="nav-item dropdown active">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  Movies
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					  <a class="dropdown-item" href="ratedg.html">Rated G</a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item" href="pg13.html">PG-13</a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item" href="pg18.html">PG-18</a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item active" href="asian.html">Asian</a>
+					</div>
+				  </li>
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  Series
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					  <a class="dropdown-item" href="asians.html">Asian</a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item" href="west.html">Western</a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item" href="anime.html">Anime</a>
+					  <div class="dropdown-divider"></div>
+					</div>
+				  </li>
+				</ul>
+					<form class="form-inline my-2 my-lg-0">
+						<input type="text" id="usrInput" onkeyup="searchPage()" placeholder="Search videos.." title="Type in a name">
+					</form>
+			  </div>
+			</nav>
+		</div>
+	</header>
+	<div class="container">
+		<div class="movlist" id="movLst">
+		</div>
+	</div>
+	<iframe id="frmFile" src="" style="display: none;"></iframe>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="script/jquery-3.3.1.slim.min.js"></script>
+    <script src="script/popper.min.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+	
+	<!-- Local Script -->	
+	<script type="text/javascript" src="script/asian.js"></script>
+	<script type="text/javascript" src="script/search.js"></script>
+	
+  </body>
+</html>
